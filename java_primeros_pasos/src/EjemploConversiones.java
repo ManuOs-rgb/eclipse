@@ -9,6 +9,7 @@ public class EjemploConversiones {
 		
 		// int prueba = 1222222222; No compila por ser de rango grande 
 		long prueba = 122222222L; // Se fuerza el resultado en int 
+		System.out.println(prueba);
 		
 		int resultado = (int) variable1 + variable1Enetero; // Fuerza el resultado en int
 		System.out.println(resultado);
