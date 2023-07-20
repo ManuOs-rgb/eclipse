@@ -1,10 +1,11 @@
 
-public class Gerente extends Funcionario implements Autenticable {
-
-    public double getBonificacion() {
-        System.out.println("Llamando metodo del Gerente");
-        return super.getSalario() + this.getSalario();
-    }
+public class Administrador extends Funcionario implements Autenticable {
+	
+	@Override
+	public double getBonificacion() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	@Override
 	public String getClave() {
